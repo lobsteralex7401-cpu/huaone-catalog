@@ -83,8 +83,9 @@ footer a{color:var(--gold-lt)}
 
 <script>
 /* ===== 設定 ===== */
-// 價格表：Google 試算表「發布到網路」選 CSV 後的網址貼在這裡。欄位：品牌、商品、美金價格、代號
-const PRICE_CSV_URL = '';
+// 價格表：大家在 Google 試算表填（知道連結就能看），用 export 讀原始文字。欄位：品牌、商品、美金價格、代號
+// （不用 gviz：它會依多數決猜欄位型別，有人填「US$29.99」這種文字就會被吃掉）
+const PRICE_CSV_URL = 'https://docs.google.com/spreadsheets/d/1kFfalLVnQDAxOJ2NvtsLjEHYzwvjRTmToO0JBrJ04qE/export?format=csv&gid=0';
 // 產業組網站（品牌資料與照片的來源）
 const SITE = 'https://huaone-veg.web.app/';
 const FS = 'https://firestore.googleapis.com/v1/projects/derlife-kuan/databases/(default)/documents/';
