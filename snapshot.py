@@ -64,7 +64,9 @@ def main():
     partners.sort(key=lambda p: p["order"])
     (HERE / "data.json").write_text(json.dumps(partners, ensure_ascii=False, indent=1), encoding="utf-8")
 
-    # 價格表：保留舊檔已填的價格，只補新商品
+    # 價格表：保留舊檔已填的價格，只補新商品；overrides.json 換掉的品牌用換過的商品與預設價
+    ov_path = HERE / "overrides.json"
+    ov = json.loads(ov_path.read_text(encoding="utf-8")) if ov_path.exists() else {}
     csv_path = HERE / "價格表.csv"
     old = {}
     if csv_path.exists():
@@ -75,8 +77,9 @@ def main():
         w = csv.writer(fh)
         w.writerow(["品牌", "商品", "美金價格", "代號"])
         for p in partners:
-            for x in p["products"]:
-                w.writerow([p["brand"], x["name"], old.get((p["slug"], x["name"]), ""), p["slug"]])
+            prods = (ov.get(p["slug"]) or {}).get("products") or p["products"]
+            for x in prods:
+                w.writerow([p["brand"], x["name"], old.get((p["slug"], x["name"])) or x.get("price", ""), p["slug"]])
 
     n = sum(len(p["products"]) for p in partners)
     img = sum(1 for p in partners for x in p["products"] if x["img"])

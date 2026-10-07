@@ -186,9 +186,11 @@ function render(){
 
 function card(p, x){
   const name = pick(x.name, x.nameEn), alt = lang==='en' ? x.name : x.nameEn;
-  const price = prices[p.slug+'|'+x.name];
-  const pic = x.img ? `<div class="pic"><img loading="lazy" src="${esc(SITE+x.img)}" alt="${esc(name)}"></div>`
-    : p.logo ? `<div class="pic logo"><img loading="lazy" src="${esc(SITE+p.logo)}" alt="${esc(pick(p.brand,p.brandEn))}"></div>`
+  const p0 = prices[p.slug+'|'+x.name] || x.price;
+  const price = p0 && !isNaN(+p0) ? (+p0).toFixed(2) : '';
+  const src = u => /^(https?:|\.\/)/.test(u) ? u : SITE+u;
+  const pic = x.img ? `<div class="pic"><img loading="lazy" src="${esc(src(x.img))}" alt="${esc(name)}"></div>`
+    : p.logo ? `<div class="pic logo"><img loading="lazy" src="${esc(src(p.logo))}" alt="${esc(pick(p.brand,p.brandEn))}"></div>`
     : `<div class="pic"><span class="ph">${esc(pick(p.brand,p.brandEn))}</span></div>`;
   return `<article class="card">${pic}<div class="body">
     <div class="name">${esc(name)}</div>${alt && alt!==name ? `<div class="alt">${esc(alt)}</div>`:''}
@@ -225,6 +227,11 @@ document.getElementById('lang').onclick = () => {
     try { partners = await getJSON('data.json'); }
     catch(e2){ document.getElementById('status').textContent = 'Sorry, the catalog could not be loaded. 目錄暫時讀不到。'; return; }
   }
+  // overrides.json：整批換掉某些品牌在目錄上的商品
+  try {
+    const ov = await getJSON('overrides.json');
+    partners.forEach(p => { if(ov[p.slug] && ov[p.slug].products) p.products = ov[p.slug].products; });
+  } catch(e){ console.warn('overrides', e); }
   prices = await pr;
   render();
 })();

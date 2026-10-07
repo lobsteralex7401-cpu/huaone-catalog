@@ -1,0 +1,23 @@
+{
+ "_說明": "要在目錄上換掉某個品牌的商品，就用該品牌的代號（slug）當 key，products 會整批取代產業組網站上的商品。img 以 ./ 開頭是放在本 repo 的 img/ 資料夾。price 是預設美金價，價格表有填的話以價格表為準。",
+ "meetsuu": {
+  "products": [
+   {
+    "name": "雙醬纖拌麵（蒟蒻麵）",
+    "nameEn": "Konjac Noodles with Dual Sauce",
+    "desc": "低卡蒟蒻麵體，附麻醬與醬油雙醬包，加熱拌勻即可上桌。170g × 2 包＋醬包，全素。",
+    "descEn": "Light konjac noodles with two signature sauces — just heat, toss, and serve. 170g × 2 packs + sauce packets. Vegan.",
+    "img": "./img/meetsuu-konjac-noodles.jpg",
+    "price": "15"
+   },
+   {
+    "name": "鮨・極鮮生魚片",
+    "nameEn": "Vegan Sashimi — Salmon & Tuna Style",
+    "desc": "全素刺身，鮭魚與鮪魚雙拼，退冰切片、佐醬油與芥末即可享用。淨重 300g。",
+    "descEn": "Plant-based sashimi duo. Thaw, slice, and serve with soy sauce and wasabi. Net Wt. 300g. Vegan.",
+    "img": "./img/meetsuu-vegan-sashimi.jpg",
+    "price": "12"
+   }
+  ]
+ }
+}
