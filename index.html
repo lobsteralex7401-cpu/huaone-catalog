@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>華One 素食產業組｜產品目錄 Product Catalog</title>
-<meta name="description" content="Plant-based products from Taiwan — Hua One Vegetarian Industry Circle. 華One 素食產業組夥伴的商品一頁看完。">
+<title>鳳凰森林 Phoenix Forest｜台灣蔬食產品目錄 Product Catalog</title>
+<meta name="description" content="Plant-based products from Taiwan — Phoenix Forest INC. 鳳凰森林：台灣蔬食品牌與商品一頁看完。">
 <style>
 /* 色票沿用產業組網站：墨綠＋象牙白＋霧金 */
 :root{
@@ -71,7 +71,7 @@ footer a{color:var(--gold-lt)}
 <header>
   <div class="wrap">
     <button class="lang" id="lang" type="button">中文</button>
-    <div class="eyebrow">BNI Hua One · Vegetarian Industry Circle</div>
+    <div class="eyebrow">Phoenix Forest INC</div>
     <h1 id="title"></h1>
     <p class="lead" id="lead"></p>
     <div class="stats" id="stats"></div>
@@ -96,12 +96,12 @@ const CAT_EN = {'冷凍調理':'Frozen Meals','麵食':'Noodles','油品醬料':
   '研發顧問':'R&D Consulting','生鮮水果':'Fresh Fruit'};
 
 const T = {
-  en:{title:'Plant-Based Products<br><em>from Taiwan</em>', lead:'Brands and products from the Hua One Vegetarian Industry Circle — makers, sauces, snacks and more, all in one place.',
+  en:{title:'Plant-Based Products<br><em>from Taiwan</em>', lead:'Plant-based brands and products from Taiwan — frozen meals, sauces, snacks and more, all in one place.',
       brands:'brands', items:'products', btn:'中文', more:'Brand page →',
-      foot:`Content is provided by each brand. Full brand stories: <a href="${SITE}?lang=en" target="_blank" rel="noopener">huaone-veg.web.app</a> · Not an official BNI website.`},
-  zh:{title:'華One 素食產業組<br><em>產品目錄</em>', lead:'從原料、醬料、製造到品牌與通路，產業組夥伴的商品一頁看完。',
+      foot:`Phoenix Forest INC · Content is provided by each brand. Brand stories: <a href="${SITE}?lang=en" target="_blank" rel="noopener">huaone-veg.web.app</a>`},
+  zh:{title:'鳳凰森林<br><em>台灣蔬食產品目錄</em>', lead:'台灣蔬食品牌與商品，冷凍調理、醬料、零食點心，一頁看完。',
       brands:'個品牌', items:'項商品', btn:'EN', more:'看品牌頁 →',
-      foot:`內容由各品牌提供。品牌故事與聯絡方式：<a href="${SITE}" target="_blank" rel="noopener">huaone-veg.web.app</a>　·　非 BNI 官方網站。`}
+      foot:`鳳凰森林 Phoenix Forest INC　·　內容由各品牌提供。品牌故事與聯絡方式：<a href="${SITE}" target="_blank" rel="noopener">huaone-veg.web.app</a>`}
 };
 
 let lang = new URLSearchParams(location.search).get('lang') || (/^zh/i.test(navigator.language) ? 'zh' : 'en');
