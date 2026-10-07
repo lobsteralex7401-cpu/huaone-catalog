@@ -96,6 +96,8 @@ const PRICE_CSV_URL = 'https://docs.google.com/spreadsheets/d/1kFfalLVnQDAxOJ2Nv
 const SITE = 'https://huaone-veg.web.app/';
 const FS = 'https://firestore.googleapis.com/v1/projects/derlife-kuan/databases/(default)/documents/';
 
+// 不上目錄的分類（服務型、生鮮，沒辦法賣到美國）
+const HIDE_CATS = ['生鮮水果','研發顧問','外銷服務'];
 const CATS = ['冷凍調理','麵食','油品醬料','零食點心','保健飲品','植物蛋白','餐飲通路','外銷服務','研發顧問','生鮮水果'];
 const CAT_EN = {'冷凍調理':'Frozen Meals','麵食':'Noodles','油品醬料':'Oils & Sauces','零食點心':'Snacks & Sweets',
   '保健飲品':'Wellness Drinks','植物蛋白':'Plant Protein','餐飲通路':'Retail & Dining','外銷服務':'Export Services',
@@ -254,6 +256,7 @@ document.getElementById('lang').onclick = () => {
     const ov = await getJSON('overrides.json');
     partners.forEach(p => { if(ov[p.slug] && ov[p.slug].products) p.products = ov[p.slug].products; });
   } catch(e){ console.warn('overrides', e); }
+  partners = partners.filter(p => !HIDE_CATS.includes(p.category));
   prices = await pr;
   render();
 })();
