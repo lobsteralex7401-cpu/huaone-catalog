@@ -65,6 +65,13 @@ h2 small{font-family:var(--sans);font-size:13px;font-weight:400;color:var(--mute
 footer{margin-top:44px;background:var(--forest);color:rgba(243,238,226,.75);font-size:13px}
 footer .wrap{padding-top:22px;padding-bottom:26px}
 footer a{color:var(--gold-lt)}
+.foot-h{font-size:11px;letter-spacing:.22em;text-transform:uppercase;color:var(--gold-lt);margin-bottom:12px}
+.contact{display:flex;flex-direction:column;gap:8px;font-size:15px}
+.contact .who b{display:block;font-family:var(--serif);font-size:20px;color:#fff;letter-spacing:.03em}
+.contact .who span{color:rgba(243,238,226,.8)}
+.contact a{color:#F3EEE2;text-decoration:none;line-height:1.5}
+.contact a:hover{color:var(--gold-lt)}
+footer .note{margin-top:18px;padding-top:12px;border-top:1px solid rgba(217,190,140,.25);font-size:12px;color:rgba(243,238,226,.55)}
 </style>
 </head>
 <body>
@@ -95,13 +102,28 @@ const CAT_EN = {'冷凍調理':'Frozen Meals','麵食':'Noodles','油品醬料':
   '保健飲品':'Wellness Drinks','植物蛋白':'Plant Protein','餐飲通路':'Retail & Dining','外銷服務':'Export Services',
   '研發顧問':'R&D Consulting','生鮮水果':'Fresh Fruit'};
 
+const CONTACT = {
+  company:'Phoenix Forest INC', name:'Mandy Liu', title:'CEO',
+  email:'chichiusa.2025@gmail.com', phone:'626-673-3164',
+  addr:['9500 7th Street, Unit E','Rancho Cucamonga, CA 91730']
+};
+function contactHTML(){
+  const c = CONTACT, q = encodeURIComponent(c.addr.join(', '));
+  return `<div class="contact">
+    <div class="who"><b>${c.company}</b><span>${c.name}・${c.title}</span></div>
+    <a href="mailto:${c.email}">✉ ${c.email}</a>
+    <a href="tel:+1${c.phone.replace(/\D/g,'')}">☎ ${c.phone}</a>
+    <a href="https://www.google.com/maps/search/?api=1&query=${q}" target="_blank" rel="noopener">⌖ ${c.addr.join('<br>')}</a>
+  </div>`;
+}
+
 const T = {
   en:{title:'Plant-Based Products<br><em>from Taiwan</em>', lead:'Plant-based brands and products from Taiwan — frozen meals, sauces, snacks and more, all in one place.',
       brands:'brands', items:'products', btn:'中文', more:'Brand page →',
-      foot:`Phoenix Forest INC · Content is provided by each brand. Brand stories: <a href="${SITE}?lang=en" target="_blank" rel="noopener">huaone-veg.web.app</a>`},
+      foot:'Contact us', note:'Product information is provided by each brand.'},
   zh:{title:'鳳凰森林<br><em>台灣蔬食產品目錄</em>', lead:'台灣蔬食品牌與商品，冷凍調理、醬料、零食點心，一頁看完。',
       brands:'個品牌', items:'項商品', btn:'EN', more:'看品牌頁 →',
-      foot:`鳳凰森林 Phoenix Forest INC　·　內容由各品牌提供。品牌故事與聯絡方式：<a href="${SITE}" target="_blank" rel="noopener">huaone-veg.web.app</a>`}
+      foot:'聯絡我們 Contact', note:'商品資料由各品牌提供。'}
 };
 
 let lang = new URLSearchParams(location.search).get('lang') || (/^zh/i.test(navigator.language) ? 'zh' : 'en');
@@ -168,7 +190,7 @@ function render(){
   document.getElementById('lang').textContent = t.btn;
   document.getElementById('title').innerHTML = t.title;
   document.getElementById('lead').textContent = t.lead;
-  document.getElementById('foot').innerHTML = t.foot;
+  document.getElementById('foot').innerHTML = `<div class="foot-h">${t.foot}</div>${contactHTML()}<div class="note">${t.note}</div>`;
   const n = partners.reduce((s,p)=>s+p.products.length,0);
   document.getElementById('stats').innerHTML = `<div><b>${partners.length}</b>${t.brands}</div><div><b>${n}</b>${t.items}</div>`;
 
