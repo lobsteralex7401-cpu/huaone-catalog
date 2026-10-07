@@ -69,6 +69,59 @@
    }
   ]
  },
+ "xhj": {
+  "products": [
+   {
+    "name": "生鮮天貝（純素）",
+    "nameEn": "Fresh Tempeh (Vegan)",
+    "desc": "黃豆、黑豆、鷹嘴豆三種，300g。",
+    "descEn": "Soybean, black bean and chickpea varieties. 300g.",
+    "img": "img/xhj/p1.jpg"
+   },
+   {
+    "name": "天貝堅果棒150g(原味/咖哩/巧克力)",
+    "nameEn": "Tempeh Nut Bar 150g (Original / Curry / Chocolate)",
+    "desc": "原味、印度咖哩。",
+    "descEn": "Original and Indian curry.",
+    "img": "img/xhj/p2.jpg"
+   },
+   {
+    "name": "天貝 POWER 棒",
+    "nameEn": "Tempeh POWER Bar",
+    "desc": "燕麥巧克力、草莓腰果。",
+    "descEn": "Oat chocolate and strawberry cashew.",
+    "img": "img/xhj/p3.jpg"
+   },
+   {
+    "name": "天貝香鬆240g(原味/咖哩)",
+    "nameEn": "Tempeh Rice Seasoning 240g (Original / Curry)",
+    "desc": "原味、印度咖哩，拌飯配粥。",
+    "descEn": "Original and Indian curry. Sprinkle over rice or congee.",
+    "img": "img/xhj/p4.jpg"
+   },
+   {
+    "name": "天貝植萃奶",
+    "nameEn": "Tempeh Plant Milk",
+    "desc": "什豆天貝粉加上多種穀物，350g 罐裝。",
+    "descEn": "Mixed-bean tempeh powder with assorted grains. 350g can.",
+    "img": "img/xhj/p5.jpg"
+   },
+   {
+    "name": "天貝椒麻醬",
+    "nameEn": "Tempeh Sichuan Pepper Sauce",
+    "desc": "拌麵、拌飯、炒菜，也可以當湯底。",
+    "descEn": "For noodles, rice and stir-fries, or as a soup base.",
+    "img": "img/xhj/p6.jpg"
+   },
+   {
+    "name": "客製化天貝",
+    "nameEn": "Custom Tempeh",
+    "desc": "可依需求用不同豆類訂製。",
+    "descEn": "Made to order with the beans of your choice.",
+    "img": "img/xhj/p7.jpg"
+   }
+  ]
+ },
  "_extra": [
   {
    "slug": "muscledream",

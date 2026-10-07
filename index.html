@@ -174,10 +174,10 @@ async function loadPrices(){
     const rows = parseCSV(await (await fetch(PRICE_CSV_URL)).text());
     const h = rows.shift().map(s=>s.replace(/^﻿/,'').trim());
     const iN=h.indexOf('商品'), iP=h.indexOf('美金價格'), iS=h.indexOf('代號');
-    const out={};
+    const out={};   // 代號 → [{name, price}]
     for(const r of rows){
       const p=(r[iP]||'').replace(/[^\d.]/g,'');
-      if(r[iS] && r[iN] && p && !isNaN(+p)) out[r[iS].trim()+'|'+r[iN].trim()] = (+p).toFixed(2);
+      if(r[iS] && r[iN] && p && !isNaN(+p)) (out[r[iS].trim()] ||= []).push({name:r[iN].trim(), price:(+p).toFixed(2)});
     }
     return out;
   }catch(e){ console.warn('price sheet', e); return {}; }
@@ -210,9 +210,19 @@ function render(){
   spy();
 }
 
+// 找價格表上對應的那一列：品名完全一樣優先；沒有的話，表上品名「以目錄品名開頭」也算
+// （大家常在品名後面補規格，例如「天貝堅果棒」→「天貝堅果棒150g(原味/咖哩/巧克力)」）
+const norm = s => String(s||'').replace(/\s+/g,'').replace(/（/g,'(').replace(/）/g,')').toLowerCase();
+function sheetRow(slug, name){
+  const rows = prices[slug] || [], n = norm(name);
+  return rows.find(r => norm(r.name) === n) || (n ? rows.find(r => norm(r.name).startsWith(n)) : null);
+}
+
 function card(p, x){
-  const name = pick(x.name, x.nameEn), alt = lang==='en' ? x.name : x.nameEn;
-  const p0 = prices[p.slug+'|'+x.name] || x.price;
+  const row = sheetRow(p.slug, x.name);
+  const zh = row ? row.name : x.name;   // 表上寫得比較完整就用表上的
+  const name = pick(zh, x.nameEn), alt = lang==='en' ? zh : x.nameEn;
+  const p0 = (row && row.price) || x.price;
   const price = p0 && !isNaN(+p0) ? (+p0).toFixed(2) : '';
   const src = u => /^(https?:|\.\/)/.test(u) ? u : SITE+u;
   const pic = x.img ? `<div class="pic"><img loading="lazy" src="${esc(src(x.img))}" alt="${esc(name)}"></div>`
