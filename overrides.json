@@ -1,5 +1,5 @@
 {
- "_說明": "要在目錄上換掉某個品牌的商品，就用該品牌的代號（slug）當 key，products 會整批取代產業組網站上的商品。img 以 ./ 開頭是放在本 repo 的 img/ 資料夾。price 是預設美金價，價格表有填的話以價格表為準。",
+ "_說明": "要在目錄上換掉某個品牌的商品，就用該品牌的代號（slug）當 key，products 會整批取代產業組網站上的商品。img 以 ./ 開頭是放在本 repo 的 img/ 資料夾。price 是預設美金價，價格表有填的話以價格表為準。  category 可改品牌在目錄上的分類。_extra 是產業組網站上沒有、直接加進目錄的品牌。",
  "meetsuu": {
   "products": [
    {
@@ -35,5 +35,58 @@
     "price": "12"
    }
   ]
- }
+ },
+ "peacevegan": {
+  "category": "植物蛋白",
+  "products": [
+   {
+    "name": "豆食漢堡排",
+    "nameEn": "Bean Burger Patty",
+    "desc": "加入藜麥，口感Ｑ彈扎實。",
+    "descEn": "Made with quinoa for a firm, springy bite.",
+    "img": "img/peacevegan/p1.jpg"
+   },
+   {
+    "name": "植物荷包蛋 PLANT EGG",
+    "nameEn": "PLANT EGG Plant-Based Fried Egg",
+    "desc": "純植物配方，退冰後輕煎一分鐘。",
+    "descEn": "Fully plant-based. Thaw, then pan-fry lightly for one minute.",
+    "img": "img/peacevegan/p2.jpg"
+   },
+   {
+    "name": "痞食Ｇ米花／煙燻維根",
+    "nameEn": "Popcorn Bites / Smoked Vegan Bacon",
+    "desc": "冷凍炸物與素培根。",
+    "descEn": "Frozen fried bites and vegan bacon.",
+    "img": "img/peacevegan/p3.jpg"
+   },
+   {
+    "name": "痞食米漢堡／堅果玉米濃湯",
+    "nameEn": "Rice Burger / Nut & Corn Chowder",
+    "desc": "微波加熱就能吃。",
+    "descEn": "Ready to eat after microwaving.",
+    "img": "img/peacevegan/p4.jpg"
+   }
+  ]
+ },
+ "_extra": [
+  {
+   "slug": "muscledream",
+   "order": 900,
+   "category": "保健飲品",
+   "brand": "品諦 Muscle Dream",
+   "brandEn": "Muscle Dream",
+   "logo": "",
+   "products": [
+    {
+     "name": "品諦高蛋白粉（泰式奶茶風味）",
+     "nameEn": "Muscle Dream Whey Protein — Thai Milk Tea",
+     "desc": "每份約 25g 蛋白質、4.6g BCAA 支鏈胺基酸。濃郁茶香媲美珍珠奶茶，口感滑順、甜度剛好，早餐、下午茶或運動後補充都適合。每包 35g，奶素（含乳）。",
+     "descEn": "About 25g protein and 4.6g BCAAs per serving. Rich milk-tea flavor, smooth and not too sweet — great for breakfast, an afternoon snack or after a workout. 35g single-serve pack. Lacto-vegetarian (contains milk).",
+     "img": "./img/muscledream-whey.jpg",
+     "price": "3"
+    }
+   ]
+  }
+ ]
 }
