@@ -1,0 +1,233 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>華One 素食產業組｜產品目錄 Product Catalog</title>
+<meta name="description" content="Plant-based products from Taiwan — Hua One Vegetarian Industry Circle. 華One 素食產業組夥伴的商品一頁看完。">
+<style>
+/* 色票沿用產業組網站：墨綠＋象牙白＋霧金 */
+:root{
+  --forest:#16352A; --forest-2:#1F4636; --gold:#B08D57; --gold-lt:#D9BE8C; --gold-soft:#EFE6D2;
+  --ivory:#F6F2E9; --paper:#fff; --line:#E4DED0; --ink:#1C2420; --text:#3A423D; --muted:#6F756C;
+  --serif:"Noto Serif TC","Songti TC","PMingLiU",Georgia,serif;
+  --sans:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang TC","Noto Sans TC","Microsoft JhengHei",sans-serif;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--ivory);color:var(--text);font-family:var(--sans);font-size:15px;line-height:1.6;-webkit-font-smoothing:antialiased}
+a{color:inherit}
+.wrap{max-width:1180px;margin:0 auto;padding:0 16px}
+
+/* 頂部 */
+header{background:var(--forest);color:#F3EEE2}
+header .wrap{padding-top:28px;padding-bottom:26px;position:relative}
+.eyebrow{padding-right:76px;font-size:11px;letter-spacing:.22em;color:var(--gold-lt);text-transform:uppercase}
+h1{font-family:var(--serif);font-weight:700;font-size:clamp(26px,6vw,40px);line-height:1.25;margin:8px 0 6px;color:#fff}
+h1 em{font-style:normal;color:var(--gold-lt)}
+.lead{margin:0;color:rgba(243,238,226,.82);max-width:560px}
+.stats{display:flex;gap:22px;margin-top:16px;font-size:13px;color:rgba(243,238,226,.75)}
+.stats b{display:block;font-family:var(--serif);font-size:22px;color:#fff;line-height:1.2}
+.lang{position:absolute;top:22px;right:16px;border:1px solid rgba(217,190,140,.6);background:transparent;color:var(--gold-lt);border-radius:999px;padding:5px 14px;font:inherit;font-size:13px;cursor:pointer}
+
+/* 分類列 */
+nav{position:sticky;top:0;z-index:10;background:rgba(246,242,233,.96);backdrop-filter:blur(6px);border-bottom:1px solid var(--line)}
+nav .wrap{display:flex;gap:8px;overflow-x:auto;padding-top:10px;padding-bottom:10px;scrollbar-width:none}
+nav .wrap::-webkit-scrollbar{display:none}
+nav a{flex:none;text-decoration:none;font-size:14px;padding:6px 14px;border-radius:999px;border:1px solid var(--line);background:var(--paper);color:var(--forest);white-space:nowrap}
+nav a.on{background:var(--forest);border-color:var(--forest);color:#fff}
+
+/* 分區 */
+section{padding-top:30px;scroll-margin-top:56px}
+h2{font-family:var(--serif);color:var(--ink);font-size:22px;margin:0 0 4px;display:flex;align-items:baseline;gap:10px}
+h2 small{font-family:var(--sans);font-size:13px;font-weight:400;color:var(--muted)}
+.rule{height:1px;background:linear-gradient(90deg,var(--gold),transparent);margin:6px 0 16px}
+
+.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+@media(min-width:720px){.grid{grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}}
+@media(min-width:1040px){.grid{grid-template-columns:repeat(4,minmax(0,1fr))}}
+
+.card{background:var(--paper);border:1px solid var(--line);border-radius:12px;overflow:hidden;display:flex;flex-direction:column}
+.pic{aspect-ratio:4/3;background:var(--gold-soft);display:grid;place-items:center;overflow:hidden}
+.pic img{width:100%;height:100%;object-fit:cover;display:block}
+.pic.logo img{width:60%;height:60%;object-fit:contain}
+.pic .ph{font-family:var(--serif);color:var(--gold);font-size:15px;padding:12px;text-align:center}
+.body{padding:10px 12px 12px;display:flex;flex-direction:column;gap:3px;flex:1}
+.name{font-weight:700;color:var(--ink);font-size:15px;line-height:1.35}
+.alt{font-size:12.5px;color:var(--muted);line-height:1.35}
+.price{align-self:flex-start;margin-top:4px;font-family:var(--serif);font-weight:700;color:var(--forest);font-size:17px}
+.price small{font-family:var(--sans);font-size:11px;font-weight:500;color:var(--gold);margin-right:2px}
+.desc{font-size:13px;color:var(--text);margin-top:2px;display:-webkit-box;-webkit-line-clamp:4;-webkit-box-orient:vertical;overflow:hidden}
+.brand{margin-top:auto;padding-top:8px;font-size:12px;color:var(--gold);text-decoration:none;border-top:1px dashed var(--line)}
+.brand:hover{text-decoration:underline}
+
+.status{padding:60px 0;text-align:center;color:var(--muted)}
+footer{margin-top:44px;background:var(--forest);color:rgba(243,238,226,.75);font-size:13px}
+footer .wrap{padding-top:22px;padding-bottom:26px}
+footer a{color:var(--gold-lt)}
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <button class="lang" id="lang" type="button">中文</button>
+    <div class="eyebrow">BNI Hua One · Vegetarian Industry Circle</div>
+    <h1 id="title"></h1>
+    <p class="lead" id="lead"></p>
+    <div class="stats" id="stats"></div>
+  </div>
+</header>
+<nav><div class="wrap" id="cats"></div></nav>
+<main class="wrap" id="main"><div class="status" id="status">Loading…</div></main>
+<footer><div class="wrap" id="foot"></div></footer>
+
+<script>
+/* ===== 設定 ===== */
+// 價格表：Google 試算表「發布到網路」選 CSV 後的網址貼在這裡。欄位：品牌、商品、美金價格、代號
+const PRICE_CSV_URL = '';
+// 產業組網站（品牌資料與照片的來源）
+const SITE = 'https://huaone-veg.web.app/';
+const FS = 'https://firestore.googleapis.com/v1/projects/derlife-kuan/databases/(default)/documents/';
+
+const CATS = ['冷凍調理','麵食','油品醬料','零食點心','保健飲品','植物蛋白','餐飲通路','外銷服務','研發顧問','生鮮水果'];
+const CAT_EN = {'冷凍調理':'Frozen Meals','麵食':'Noodles','油品醬料':'Oils & Sauces','零食點心':'Snacks & Sweets',
+  '保健飲品':'Wellness Drinks','植物蛋白':'Plant Protein','餐飲通路':'Retail & Dining','外銷服務':'Export Services',
+  '研發顧問':'R&D Consulting','生鮮水果':'Fresh Fruit'};
+
+const T = {
+  en:{title:'Plant-Based Products<br><em>from Taiwan</em>', lead:'Brands and products from the Hua One Vegetarian Industry Circle — makers, sauces, snacks and more, all in one place.',
+      brands:'brands', items:'products', btn:'中文', more:'Brand page →',
+      foot:`Content is provided by each brand. Full brand stories: <a href="${SITE}?lang=en" target="_blank" rel="noopener">huaone-veg.web.app</a> · Not an official BNI website.`},
+  zh:{title:'華One 素食產業組<br><em>產品目錄</em>', lead:'從原料、醬料、製造到品牌與通路，產業組夥伴的商品一頁看完。',
+      brands:'個品牌', items:'項商品', btn:'EN', more:'看品牌頁 →',
+      foot:`內容由各品牌提供。品牌故事與聯絡方式：<a href="${SITE}" target="_blank" rel="noopener">huaone-veg.web.app</a>　·　非 BNI 官方網站。`}
+};
+
+let lang = new URLSearchParams(location.search).get('lang') || (/^zh/i.test(navigator.language) ? 'zh' : 'en');
+let partners = [], prices = {};
+
+/* ===== 讀資料：先讀產業組網站的即時資料，讀不到就用快照 data.json ===== */
+function val(v){
+  if(!v) return null;
+  if('stringValue' in v) return v.stringValue;
+  if('integerValue' in v) return +v.integerValue;
+  if('doubleValue' in v) return v.doubleValue;
+  if('booleanValue' in v) return v.booleanValue;
+  if('arrayValue' in v) return (v.arrayValue.values||[]).map(val);
+  if('mapValue' in v){const o={}; for(const [k,x] of Object.entries(v.mapValue.fields||{})) o[k]=val(x); return o;}
+  return null;
+}
+const getJSON = (u, ms=6000) => Promise.race([fetch(u).then(r=>{if(!r.ok) throw r.status; return r.json();}), new Promise((_,j)=>setTimeout(()=>j('timeout'),ms))]);
+
+async function loadLive(){
+  const idx = val((await getJSON(FS+'bni-veg-index/main')).fields.p);
+  const docs = await Promise.all(Object.keys(idx).map(s => getJSON(FS+'bni-veg-partners/'+s).then(d => {
+    const f = {}; for(const [k,x] of Object.entries(d.fields)) f[k]=val(x);
+    return {slug:s, order:f.order||999, category:f.category||'', brand:f.brand||'', brandEn:f.brandEn||'',
+      logo:f.logo||'', products:(f.products||[]).map(p=>({name:p.name||'',nameEn:p.nameEn||'',desc:p.desc||'',descEn:p.descEn||'',img:p.img||''}))};
+  })));
+  return docs.sort((a,b)=>a.order-b.order);
+}
+
+function parseCSV(t){
+  const rows=[]; let row=[], cur='', q=false;
+  for(let i=0;i<t.length;i++){
+    const c=t[i];
+    if(q){ if(c=='"'){ if(t[i+1]=='"'){cur+='"';i++;} else q=false; } else cur+=c; }
+    else if(c=='"') q=true;
+    else if(c==','){row.push(cur);cur='';}
+    else if(c=='\n'||c=='\r'){ if(c=='\r'&&t[i+1]=='\n') i++; row.push(cur); rows.push(row); row=[]; cur=''; }
+    else cur+=c;
+  }
+  if(cur||row.length){row.push(cur);rows.push(row);}
+  return rows;
+}
+async function loadPrices(){
+  if(!PRICE_CSV_URL) return {};
+  try{
+    const rows = parseCSV(await (await fetch(PRICE_CSV_URL)).text());
+    const h = rows.shift().map(s=>s.replace(/^﻿/,'').trim());
+    const iN=h.indexOf('商品'), iP=h.indexOf('美金價格'), iS=h.indexOf('代號');
+    const out={};
+    for(const r of rows){
+      const p=(r[iP]||'').replace(/[^\d.]/g,'');
+      if(r[iS] && r[iN] && p && !isNaN(+p)) out[r[iS].trim()+'|'+r[iN].trim()] = (+p).toFixed(2);
+    }
+    return out;
+  }catch(e){ console.warn('price sheet', e); return {}; }
+}
+
+/* ===== 畫面 ===== */
+const esc = s => String(s||'').replace(/[&<>"]/g, c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const pick = (zh, en) => lang==='en' ? (en||zh) : (zh||en);
+
+function render(){
+  const t = T[lang];
+  document.documentElement.lang = lang==='en' ? 'en' : 'zh-Hant';
+  document.getElementById('lang').textContent = t.btn;
+  document.getElementById('title').innerHTML = t.title;
+  document.getElementById('lead').textContent = t.lead;
+  document.getElementById('foot').innerHTML = t.foot;
+  const n = partners.reduce((s,p)=>s+p.products.length,0);
+  document.getElementById('stats').innerHTML = `<div><b>${partners.length}</b>${t.brands}</div><div><b>${n}</b>${t.items}</div>`;
+
+  const used = CATS.filter(c => partners.some(p=>p.category===c && p.products.length));
+  partners.forEach(p => { if(p.category && !used.includes(p.category) && p.products.length) used.push(p.category); });
+  const catName = c => lang==='en' ? (CAT_EN[c]||c) : c;
+  document.getElementById('cats').innerHTML = used.map((c,i)=>`<a href="#c${i}">${esc(catName(c))}</a>`).join('');
+
+  document.getElementById('main').innerHTML = used.map((c,i) => {
+    const items = partners.filter(p=>p.category===c).flatMap(p => p.products.map(x=>({p,x})));
+    return `<section id="c${i}"><h2>${esc(catName(c))}<small>${lang==='en'?esc(c):esc(CAT_EN[c]||'')}</small></h2><div class="rule"></div>
+      <div class="grid">${items.map(({p,x}) => card(p,x)).join('')}</div></section>`;
+  }).join('');
+  spy();
+}
+
+function card(p, x){
+  const name = pick(x.name, x.nameEn), alt = lang==='en' ? x.name : x.nameEn;
+  const price = prices[p.slug+'|'+x.name];
+  const pic = x.img ? `<div class="pic"><img loading="lazy" src="${esc(SITE+x.img)}" alt="${esc(name)}"></div>`
+    : p.logo ? `<div class="pic logo"><img loading="lazy" src="${esc(SITE+p.logo)}" alt="${esc(pick(p.brand,p.brandEn))}"></div>`
+    : `<div class="pic"><span class="ph">${esc(pick(p.brand,p.brandEn))}</span></div>`;
+  return `<article class="card">${pic}<div class="body">
+    <div class="name">${esc(name)}</div>${alt && alt!==name ? `<div class="alt">${esc(alt)}</div>`:''}
+    ${price ? `<div class="price"><small>US$</small>${price}</div>`:''}
+    <div class="desc">${esc(pick(x.desc, x.descEn))}</div>
+    <a class="brand" href="${SITE}${lang==='en'?'?lang=en':''}#/p/${encodeURIComponent(p.slug)}" target="_blank" rel="noopener">${esc(pick(p.brand,p.brandEn))}</a>
+  </div></article>`;
+}
+
+// 捲到哪一區，分類列就亮哪一顆
+let io;
+function spy(){
+  io && io.disconnect();
+  const links = [...document.querySelectorAll('#cats a')];
+  io = new IntersectionObserver(es => es.forEach(e => {
+    if(!e.isIntersecting) return;
+    links.forEach(a => a.classList.toggle('on', a.getAttribute('href')==='#'+e.target.id));
+    const on = document.querySelector('#cats a.on'); on && on.scrollIntoView({block:'nearest',inline:'center'});
+  }), {rootMargin:'-60px 0px -70% 0px'});
+  document.querySelectorAll('main section').forEach(s => io.observe(s));
+}
+
+document.getElementById('lang').onclick = () => {
+  lang = lang==='en' ? 'zh' : 'en';
+  const u = new URL(location); u.searchParams.set('lang', lang); history.replaceState(null,'',u);
+  render();
+};
+
+(async () => {
+  const pr = loadPrices();
+  try { partners = await loadLive(); }
+  catch(e){
+    console.warn('live data failed, using snapshot', e);
+    try { partners = await getJSON('data.json'); }
+    catch(e2){ document.getElementById('status').textContent = 'Sorry, the catalog could not be loaded. 目錄暫時讀不到。'; return; }
+  }
+  prices = await pr;
+  render();
+})();
+</script>
+</body>
+</html>

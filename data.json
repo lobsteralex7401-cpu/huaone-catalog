@@ -1,0 +1,1151 @@
+[
+ {
+  "slug": "derlife",
+  "order": 10,
+  "category": "冷凍調理",
+  "brand": "得來素 DerLife",
+  "brandEn": "DerLife",
+  "tagline": "19 年蔬食品牌，從素食早午餐做到冷凍食品。",
+  "taglineEn": "A 19-year plant-based brand, from vegetarian brunch to frozen foods.",
+  "logo": "img/derlife/logo.webp",
+  "products": [
+   {
+    "name": "咔脆Ｇ腿（純素）",
+    "nameEn": "Crispy Mushroom Drumsticks (Vegan)",
+    "desc": "嚴選杏鮑菇手工製作，裹粉炸至金黃，外酥內嫩。700g／8 隻。",
+    "descEn": "Handmade from select king oyster mushrooms, breaded and fried until golden: crispy outside, tender inside. 700g / 8 pieces.",
+    "img": "img/derlife/p1.jpg"
+   },
+   {
+    "name": "養生藥膳湯（純素）",
+    "nameEn": "Herbal Tonic Soup (Vegan)",
+    "desc": "十多種中藥材慢火熬製三小時，可以直接喝，也能當火鍋湯頭。600g。",
+    "descEn": "More than ten Chinese herbs simmered for three hours. Drink it as it is, or use it as a hot pot broth. 600g.",
+    "img": "img/derlife/p2.jpg"
+   },
+   {
+    "name": "三角圓（純素）",
+    "nameEn": "Triangle Dumplings (Vegan)",
+    "desc": "台中豐原特產，外皮Ｑ彈，吃火鍋必加。600g。",
+    "descEn": "A specialty of Fengyuan, Taichung, with a chewy skin. A must-add for hot pot. 600g.",
+    "img": "img/derlife/p3.jpg"
+   },
+   {
+    "name": "飄香栗子粽（純素）",
+    "nameEn": "Chestnut Zongzi Rice Dumplings (Vegan)",
+    "desc": "七種內餡、層層工序的粽子，全年供應。20 顆裝。",
+    "descEn": "Zongzi with seven fillings, made through layer after layer of preparation. Available year-round. Pack of 20.",
+    "img": "img/derlife/p4.jpg"
+   },
+   {
+    "name": "麻香油飯（純素）",
+    "nameEn": "Sesame Oil Sticky Rice (Vegan)",
+    "desc": "麻油爆香，配上栗子、香菇、雪蓮子。600g。",
+    "descEn": "Fragrant with sesame oil, with chestnuts, shiitake mushrooms and chickpeas. 600g.",
+    "img": "img/derlife/p5.jpg"
+   },
+   {
+    "name": "清香餛飩（純素）",
+    "nameEn": "Light Wontons (Vegan)",
+    "desc": "煮湯、煮麵或做紅油抄手都合適。140g／14 顆。",
+    "descEn": "Good in soup, with noodles, or served in chili oil. 140g / 14 pieces.",
+    "img": "img/derlife/p6.jpg"
+   }
+  ]
+ },
+ {
+  "slug": "meetsuu",
+  "order": 20,
+  "category": "冷凍調理",
+  "brand": "蔬味平生",
+  "brandEn": "Vegalchemy",
+  "tagline": "全素冷凍調理包，加熱就是一道菜。",
+  "taglineEn": "Vegan frozen meal packs: heat one up and you have a dish.",
+  "logo": "img/meetsuu/logo.webp",
+  "products": [
+   {
+    "name": "蔬脆棒棒腿（全素）",
+    "nameEn": "Crispy Veggie Drumsticks (Vegan)",
+    "desc": "270g／6 支，人氣炸物。",
+    "descEn": "270g / 6 pieces. A popular fried item.",
+    "img": "img/meetsuu/p1.jpg"
+   },
+   {
+    "name": "三杯猴頭菇",
+    "nameEn": "Three-Cup Lion’s Mane Mushroom",
+    "desc": "400g，含米酒。",
+    "descEn": "400g. Contains rice wine.",
+    "img": "img/meetsuu/p2.jpg"
+   },
+   {
+    "name": "麻婆豆腐（全素）",
+    "nameEn": "Mapo Tofu (Vegan)",
+    "desc": "400g，加熱即食。",
+    "descEn": "400g. Heat and serve.",
+    "img": "img/meetsuu/p3.jpg"
+   },
+   {
+    "name": "滋補養生當歸四神湯（全素）",
+    "nameEn": "Angelica Four-Herb Tonic Soup (Vegan)",
+    "desc": "500g 湯品。",
+    "descEn": "500g soup.",
+    "img": "img/meetsuu/p4.jpg"
+   },
+   {
+    "name": "蔬福水餃（全素）",
+    "nameEn": "Veggie Dumplings (Vegan)",
+    "desc": "600g。",
+    "descEn": "600g.",
+    "img": ""
+   },
+   {
+    "name": "川媽辣椒醬／經典 XO 醬（全素）",
+    "nameEn": "Chili Sauce / Classic XO Sauce (Vegan)",
+    "desc": "常溫醬料，拌麵拌飯都可以。",
+    "descEn": "Shelf-stable sauces, good with noodles or rice.",
+    "img": "img/meetsuu/p6.jpg"
+   },
+   {
+    "name": "冷凍組合",
+    "nameEn": "Frozen Bundles",
+    "desc": "新蔬友嚐鮮組、經典無辣組、拜拜必備全素三牲禮等。",
+    "descEn": "A starter set for new plant-based eaters, a classic non-spicy set, a vegan three-offering set for worship, and more.",
+    "img": "img/meetsuu/p7.jpg"
+   }
+  ]
+ },
+ {
+  "slug": "shanfeng",
+  "order": 30,
+  "category": "麵食",
+  "brand": "三風食品",
+  "brandEn": "Shan Feng Foods",
+  "tagline": "專注做麵數十年，從養生麵條到非油炸沖泡麵。",
+  "taglineEn": "Decades devoted to noodles, from wellness noodles to non-fried instant noodles.",
+  "logo": "img/shanfeng/logo.webp",
+  "products": [
+   {
+    "name": "風神拌麵（全素）",
+    "nameEn": "Fengshen Dry-Mix Noodles (Vegan)",
+    "desc": "非油炸風乾麵體，沖泡就能吃。有經典辛香椒麻寬麵、溫醇老薑麻油麵線。",
+    "descEn": "Non-fried, air-dried noodles that are ready after steeping in hot water. Flavors: classic Sichuan pepper wide noodles and mellow aged-ginger sesame oil thin noodles.",
+    "img": "img/shanfeng/p1.jpg"
+   },
+   {
+    "name": "經典細拌麵／波浪寬拌麵",
+    "nameEn": "Classic Thin / Wavy Wide Dry-Mix Noodles",
+    "desc": "椒麻原味（全素）、香蒜黃金椒（五辛素）。",
+    "descEn": "Original Sichuan pepper (vegan); garlic golden pepper (vegan, contains alliums).",
+    "img": "img/shanfeng/p2.jpg"
+   },
+   {
+    "name": "老薑麻油乾麵線（全素）",
+    "nameEn": "Aged-Ginger Sesame Oil Thin Noodles (Vegan)",
+    "desc": "道地麻油加老薑，240g／2 人份。",
+    "descEn": "Authentic sesame oil with aged ginger. 240g / serves 2.",
+    "img": "img/shanfeng/p3.jpg"
+   },
+   {
+    "name": "三風製麵系列（全素）",
+    "nameEn": "Shan Feng Noodle Range (Vegan)",
+    "desc": "蕎麥麵、紅麴麵線、台灣小麥麵線等。小麥麵線曾獲 2021 年銀髮友善食品銀質獎。",
+    "descEn": "Buckwheat noodles, red yeast rice thin noodles, Taiwanese wheat thin noodles and more. The wheat thin noodles won a silver award in Taiwan’s 2021 senior-friendly food selection.",
+    "img": "img/shanfeng/p4.jpg"
+   },
+   {
+    "name": "養生麵條（全素）",
+    "nameEn": "Wellness Noodles (Vegan)",
+    "desc": "藍藻麵、抹茶麵、五穀麵、山藥麵。",
+    "descEn": "Blue-green algae, matcha, multigrain and Chinese yam noodles.",
+    "img": "img/shanfeng/p5.jpg"
+   },
+   {
+    "name": "代工服務",
+    "nameEn": "OEM Services",
+    "desc": "麵體配方研發與打樣，乾燥麵、沖泡麵、乾拌麵代工。",
+    "descEn": "Noodle formula development and sampling; OEM for dried, instant and dry-mix noodles.",
+    "img": "img/shanfeng/p6.jpg"
+   }
+  ]
+ },
+ {
+  "slug": "guwang",
+  "order": 40,
+  "category": "油品醬料",
+  "brand": "菇王食品",
+  "brandEn": "Gu Wang Foods",
+  "tagline": "傳承 70 年的純素醬料，陶缸純釀。",
+  "taglineEn": "Vegan sauces with a 70-year heritage, naturally brewed in clay urns.",
+  "logo": "img/guwang/logo.webp",
+  "products": [
+   {
+    "name": "素香菇沙茶醬",
+    "nameEn": "Vegan Mushroom Shacha Sauce",
+    "desc": "素沙茶創始品牌，陪很多純素者吃過團圓火鍋。",
+    "descEn": "The original vegan shacha brand, part of many vegans’ reunion hot pots.",
+    "img": "img/guwang/p1.jpg"
+   },
+   {
+    "name": "香菇香椿醬",
+    "nameEn": "Mushroom & Chinese Toon Sauce",
+    "desc": "去掉香椿的草腥味，加上台灣香菇，是回購很高的拌麵醬。",
+    "descEn": "Chinese toon without the grassy edge, plus Taiwanese shiitake. A noodle sauce customers keep coming back for.",
+    "img": "img/guwang/p2.jpg"
+   },
+   {
+    "name": "純釀醬油系列",
+    "nameEn": "Naturally Brewed Soy Sauce Range",
+    "desc": "有機黑豆、梅子、紅麴、香菇、咖啡等口味，300ml。",
+    "descEn": "Flavors include organic black bean, plum, red yeast rice, shiitake and coffee. 300ml.",
+    "img": "img/guwang/p3.jpg"
+   },
+   {
+    "name": "米發酵系列（無麩質）",
+    "nameEn": "Rice Fermentation Range (Gluten-Free)",
+    "desc": "有機味霖、有機鹽麴、米釀、甜酒釀。",
+    "descEn": "Organic mirin, organic shio koji, rice brew and sweet fermented rice.",
+    "img": "img/guwang/p4.jpg"
+   },
+   {
+    "name": "好拌友拌麵醬包",
+    "nameEn": "Noodle Sauce Packs",
+    "desc": "椒麻、麻油、香椿、炸醬、咖哩、麻辣六種口味，一包一份。",
+    "descEn": "Six flavors: Sichuan pepper, sesame oil, Chinese toon, zhajiang, curry and mala. One pack per serving.",
+    "img": "img/guwang/p5.jpg"
+   },
+   {
+    "name": "營業用包裝",
+    "nameEn": "Foodservice Packs",
+    "desc": "1kg 鋁箔包到 18kg 桶裝，供餐飲業與食品加工廠使用。",
+    "descEn": "From 1kg foil pouches to 18kg drums, for restaurants and food processors.",
+    "img": "img/guwang/p6.jpg"
+   }
+  ]
+ },
+ {
+  "slug": "organic-olive",
+  "order": 50,
+  "category": "油品醬料",
+  "brand": "澳根尼農莊",
+  "brandEn": "Auganic",
+  "tagline": "自家西澳橄欖農莊，從採收、榨油到裝瓶一條龍。",
+  "taglineEn": "A family olive estate in Western Australia, doing everything from harvest and pressing to bottling.",
+  "logo": "img/organic-olive/logo.webp",
+  "products": [
+   {
+    "name": "澳根尼橄欖油（瓶裝）",
+    "nameEn": "Auganic Olive Oil (Bottle)",
+    "desc": "500ml、750ml，保存期限三年。",
+    "descEn": "500ml and 750ml. Three-year shelf life.",
+    "img": "img/organic-olive/p1.jpg"
+   },
+   {
+    "name": "澳根尼橄欖油（桶裝）",
+    "nameEn": "Auganic Olive Oil (Tin)",
+    "desc": "1000ml、3000ml，適合餐飲使用。",
+    "descEn": "1000ml and 3000ml, suited to foodservice.",
+    "img": "img/organic-olive/p2.jpg"
+   },
+   {
+    "name": "老素川椒麻醬",
+    "nameEn": "Sichuan Pepper Sauce",
+    "desc": "常溫醬料。",
+    "descEn": "Shelf-stable sauce.",
+    "img": "img/organic-olive/p3.jpg"
+   },
+   {
+    "name": "橄欖葉調味粉",
+    "nameEn": "Olive Leaf Seasoning Powder",
+    "desc": "原味、辣味。",
+    "descEn": "Original and spicy.",
+    "img": "img/organic-olive/p4.jpg"
+   },
+   {
+    "name": "火鍋湯包",
+    "nameEn": "Hot Pot Soup Bases",
+    "desc": "番茄紅燒、蟲草、麻辣三種口味。",
+    "descEn": "Three flavors: braised tomato, cordyceps and mala.",
+    "img": "img/organic-olive/p5.jpg"
+   },
+   {
+    "name": "OEM／ODM 貼標",
+    "nameEn": "OEM/ODM Private Labeling",
+    "desc": "可替廠商做品牌化貼標，目前出口日本、中國、台灣。",
+    "descEn": "Private-label branding for other companies. Currently exported to Japan, China and Taiwan.",
+    "img": ""
+   }
+  ]
+ },
+ {
+  "slug": "cubalah",
+  "order": 60,
+  "category": "零食點心",
+  "brand": "試蔬看 CUBALAH",
+  "brandEn": "CUBA-LAH",
+  "tagline": "把馬來西亞的蔬食即食品與零食帶回台灣。",
+  "taglineEn": "Bringing Malaysia’s ready-to-eat plant-based foods and snacks to Taiwan.",
+  "logo": "img/cubalah/logo.webp",
+  "products": [
+   {
+    "name": "ROOTS PALATE 糯米雞",
+    "nameEn": "ROOTS PALATE Glutinous Rice “Chicken”",
+    "desc": "常溫保存，微波 1 分鐘或電鍋蒸 15 分鐘。200g／盒。",
+    "descEn": "Shelf-stable. Microwave for 1 minute or steam in a rice cooker for 15 minutes. 200g per box.",
+    "img": ""
+   },
+   {
+    "name": "READY CUP 泰北金麵",
+    "nameEn": "READY CUP Northern Thai Golden Noodles",
+    "desc": "咖哩風味湯麵，煮 2 分鐘或沖泡 5 分鐘。",
+    "descEn": "Curry-flavored noodle soup. Boil for 2 minutes or steep for 5.",
+    "img": ""
+   },
+   {
+    "name": "MOCKNOT 植物肉乾",
+    "nameEn": "MOCKNOT Plant-Based Jerky",
+    "desc": "獨立包裝，原味與辣味。",
+    "descEn": "Individually wrapped. Original and spicy.",
+    "img": "img/cubalah/p3.jpg"
+   },
+   {
+    "name": "SNACKISS 雙色零食",
+    "nameEn": "SNACKISS Two-Tone Snacks",
+    "desc": "馬來西亞原裝進口，純素。",
+    "descEn": "Imported from Malaysia. Vegan.",
+    "img": ""
+   },
+   {
+    "name": "FRENZYBITE 辣玉米脆片",
+    "nameEn": "FRENZYBITE Spicy Corn Chips",
+    "desc": "多層口感的玉米零食。",
+    "descEn": "A corn snack with a layered crunch.",
+    "img": ""
+   },
+   {
+    "name": "HAPPY HOME 午餐肉",
+    "nameEn": "HAPPY HOME Luncheon Meat",
+    "desc": "易拉罐設計，常溫保存。蛋素，原味與辣味。",
+    "descEn": "Pull-tab can, shelf-stable. Ovo-vegetarian (contains egg). Original and spicy.",
+    "img": ""
+   }
+  ]
+ },
+ {
+  "slug": "cjw",
+  "order": 70,
+  "category": "冷凍調理",
+  "brand": "齋滋味",
+  "brandEn": "Chaste Je Way",
+  "tagline": "純素的火腿、培根、熱狗與漢堡肉。",
+  "taglineEn": "Vegan ham, bacon, hot dogs and burger patties.",
+  "logo": "img/cjw/logo.webp",
+  "products": [
+   {
+    "name": "煙燻火腿片／早上火腿片",
+    "nameEn": "Smoked Ham Slices / Breakfast Ham Slices",
+    "desc": "純素，250g 與 1kg 規格。",
+    "descEn": "Vegan. 250g and 1kg.",
+    "img": "img/cjw/p1.jpg"
+   },
+   {
+    "name": "培根肉片／培根脆片",
+    "nameEn": "Bacon Slices / Bacon Crisps",
+    "desc": "純素。",
+    "descEn": "Vegan.",
+    "img": "img/cjw/p2.jpg"
+   },
+   {
+    "name": "墨西哥紅腸／慕尼黑白腸／美式熱狗",
+    "nameEn": "Mexican Red Sausage / Munich White Sausage / American Hot Dog",
+    "desc": "純素香腸系列。",
+    "descEn": "Vegan sausage range.",
+    "img": "img/cjw/p3.jpg"
+   },
+   {
+    "name": "漢堡肉／午餐肉",
+    "nameEn": "Burger Patty / Luncheon Meat",
+    "desc": "純素，Vegan Select 系列。",
+    "descEn": "Vegan. Part of the Vegan Select range.",
+    "img": "img/cjw/p4.jpg"
+   },
+   {
+    "name": "義大利肉醬",
+    "nameEn": "Bolognese Sauce",
+    "desc": "純素，200g 與 1kg。",
+    "descEn": "Vegan. 200g and 1kg.",
+    "img": "img/cjw/p5.jpg"
+   },
+   {
+    "name": "花枝圈／香酥花枝圈",
+    "nameEn": "Calamari-Style Rings / Crispy Calamari-Style Rings",
+    "desc": "純素，最大有 3kg 營業用規格。",
+    "descEn": "Vegan. Available up to a 3kg foodservice size.",
+    "img": "img/cjw/p6.jpg"
+   }
+  ]
+ },
+ {
+  "slug": "daintiest",
+  "order": 80,
+  "category": "零食點心",
+  "brand": "原味千尋",
+  "brandEn": "Daintiest",
+  "tagline": "16 公升牛奶只做 1 公斤的黃金乳酪絲。",
+  "taglineEn": "It takes 16 liters of milk to make just 1 kg of golden cheese strips.",
+  "logo": "img/daintiest/logo.webp",
+  "products": [
+   {
+    "name": "黃金乳酪絲（奶素）",
+    "nameEn": "Golden Cheese Strips (Lacto-Vegetarian)",
+    "desc": "經典原味、清境蜂蜜、普羅旺斯羅勒、辛、玉米濃湯五種口味，85g。",
+    "descEn": "Five flavors: classic original, Cingjing honey, Provençal basil, spicy and corn chowder. 85g.",
+    "img": "img/daintiest/p1.jpg"
+   },
+   {
+    "name": "田園蔬菜脆片／水果脆片",
+    "nameEn": "Garden Vegetable Crisps / Fruit Crisps",
+    "desc": "真空脫水，保留原色原味。",
+    "descEn": "Vacuum-dried to keep the natural color and flavor.",
+    "img": "img/daintiest/p2.jpg"
+   },
+   {
+    "name": "南島香菇脆片／秀珍菇脆片",
+    "nameEn": "Shiitake Crisps / Oyster Mushroom Crisps",
+    "desc": "在地菇類，口感酥脆。",
+    "descEn": "Locally grown mushrooms with a crisp bite.",
+    "img": "img/daintiest/p3.jpg"
+   },
+   {
+    "name": "甘薯條／芋頭條",
+    "nameEn": "Sweet Potato Sticks / Taro Sticks",
+    "desc": "台灣地瓜與芋頭製成。",
+    "descEn": "Made from Taiwanese sweet potato and taro.",
+    "img": "img/daintiest/p4.jpg"
+   },
+   {
+    "name": "乳酪曲奇餅／蝴蝶酥（奶素）",
+    "nameEn": "Cheese Cookies / Palmiers (Lacto-Vegetarian)",
+    "desc": "烘焙點心。",
+    "descEn": "Baked treats.",
+    "img": "img/daintiest/p5.jpg"
+   },
+   {
+    "name": "禮盒",
+    "nameEn": "Gift Sets",
+    "desc": "好時光禮盒、奢華禮盒等，適合伴手禮與企業贈禮。",
+    "descEn": "Several gift box options, suited to souvenirs and corporate gifting.",
+    "img": "img/daintiest/p6.jpg"
+   }
+  ]
+ },
+ {
+  "slug": "daosui",
+  "order": 90,
+  "category": "保健飲品",
+  "brand": "稻穗素基精",
+  "brandEn": "Daosui Mushroom Essence",
+  "tagline": "用蕈菇做的全素「基精」，怕雞精腥味的人也能喝。",
+  "taglineEn": "A vegan “essence” made from mushrooms, for people who find chicken essence too gamey.",
+  "logo": "img/daosui/logo.webp",
+  "products": [
+   {
+    "name": "稻穗素基精",
+    "nameEn": "Daosui Mushroom Essence",
+    "desc": "全素，開封即飲，口感順口回甘。",
+    "descEn": "Vegan. Ready to drink once opened, smooth with a sweet aftertaste.",
+    "img": "img/daosui/p1.jpg"
+   }
+  ]
+ },
+ {
+  "slug": "goodgood",
+  "order": 100,
+  "category": "油品醬料",
+  "brand": "穀穀紫蘇籽油",
+  "brandEn": "Good Good Perilla Seed Oil",
+  "tagline": "冷壓初榨紫蘇籽油，素食者補充 Omega-3 的選擇。",
+  "taglineEn": "Cold-pressed virgin perilla seed oil, an Omega-3 option for vegetarians and vegans.",
+  "logo": "img/goodgood/logo.webp",
+  "products": [
+   {
+    "name": "穀穀紫蘇籽油 250ml",
+    "nameEn": "Good Good Perilla Seed Oil 250ml",
+    "desc": "可以生飲、涼拌，或加進湯品與拌飯裡。",
+    "descEn": "Drink it straight, use it in cold dishes, or add it to soup and rice.",
+    "img": "img/goodgood/p1.jpg"
+   }
+  ]
+ },
+ {
+  "slug": "gourmii",
+  "order": 110,
+  "category": "零食點心",
+  "brand": "GOURMii 菓迷",
+  "brandEn": "GOURMii",
+  "tagline": "趙媽媽手炒的腰果脆糖，連年拿下 ITI 三星。",
+  "taglineEn": "A mother’s hand-roasted cashew brittle, an ITI three-star winner year after year.",
+  "logo": "img/gourmii/logo.webp",
+  "products": [
+   {
+    "name": "原脆手工焙炒腰果脆糖 100g",
+    "nameEn": "Hand-Roasted Cashew Brittle 100g",
+    "desc": "全素可食。",
+    "descEn": "Suitable for vegans.",
+    "img": "img/gourmii/p1.jpg"
+   },
+   {
+    "name": "趙媽媽腰果脆糖 300g",
+    "nameEn": "Cashew Brittle 300g",
+    "desc": "大包裝，全素可食。",
+    "descEn": "Large pack. Suitable for vegans.",
+    "img": "img/gourmii/p2.jpg"
+   },
+   {
+    "name": "腰果脆糖禮盒",
+    "nameEn": "Cashew Brittle Gift Set",
+    "desc": "100g × 2，附提盒，適合送禮。",
+    "descEn": "100g × 2 in a carry box, good for gifting.",
+    "img": "img/gourmii/p3.jpg"
+   }
+  ]
+ },
+ {
+  "slug": "xhj",
+  "order": 120,
+  "category": "植物蛋白",
+  "brand": "翔鶴佳",
+  "brandEn": "Xiang Heh Jia Biotech",
+  "tagline": "天貝專家，把發酵豆做成各種好入口的食品。",
+  "taglineEn": "Tempeh specialists, turning fermented beans into foods that are easy to enjoy.",
+  "logo": "img/xhj/logo.webp",
+  "products": [
+   {
+    "name": "生鮮天貝（純素）",
+    "nameEn": "Fresh Tempeh (Vegan)",
+    "desc": "黃豆、黑豆、鷹嘴豆三種，300g。",
+    "descEn": "Soybean, black bean and chickpea varieties. 300g.",
+    "img": "img/xhj/p1.jpg"
+   },
+   {
+    "name": "天貝堅果棒",
+    "nameEn": "Tempeh Nut Bar",
+    "desc": "原味、印度咖哩。",
+    "descEn": "Original and Indian curry.",
+    "img": "img/xhj/p2.jpg"
+   },
+   {
+    "name": "天貝 POWER 棒",
+    "nameEn": "Tempeh POWER Bar",
+    "desc": "燕麥巧克力、草莓腰果。",
+    "descEn": "Oat chocolate and strawberry cashew.",
+    "img": "img/xhj/p3.jpg"
+   },
+   {
+    "name": "天貝香鬆",
+    "nameEn": "Tempeh Rice Seasoning",
+    "desc": "原味、印度咖哩，拌飯配粥。",
+    "descEn": "Original and Indian curry. Sprinkle over rice or congee.",
+    "img": "img/xhj/p4.jpg"
+   },
+   {
+    "name": "天貝植萃奶",
+    "nameEn": "Tempeh Plant Milk",
+    "desc": "什豆天貝粉加上多種穀物，350g 罐裝。",
+    "descEn": "Mixed-bean tempeh powder with assorted grains. 350g can.",
+    "img": "img/xhj/p5.jpg"
+   },
+   {
+    "name": "天貝椒麻醬",
+    "nameEn": "Tempeh Sichuan Pepper Sauce",
+    "desc": "拌麵、拌飯、炒菜，也可以當湯底。",
+    "descEn": "For noodles, rice and stir-fries, or as a soup base.",
+    "img": "img/xhj/p6.jpg"
+   },
+   {
+    "name": "客製化天貝",
+    "nameEn": "Custom Tempeh",
+    "desc": "可依需求用不同豆類訂製。",
+    "descEn": "Made to order with the beans of your choice.",
+    "img": "img/xhj/p7.jpg"
+   }
+  ]
+ },
+ {
+  "slug": "peacevegan",
+  "order": 130,
+  "category": "餐飲通路",
+  "brand": "痞食維根 PEACE VEGAN",
+  "brandEn": "Peace Vegan",
+  "tagline": "全植物漢堡店加全植物超市，也自己開發植物基食材。",
+  "taglineEn": "A fully plant-based burger shop and supermarket that also develops its own plant-based ingredients.",
+  "logo": "img/peacevegan/logo.webp",
+  "products": [
+   {
+    "name": "豆食漢堡排",
+    "nameEn": "Bean Burger Patty",
+    "desc": "加入藜麥，口感Ｑ彈扎實。",
+    "descEn": "Made with quinoa for a firm, springy bite.",
+    "img": "img/peacevegan/p1.jpg"
+   },
+   {
+    "name": "植物荷包蛋 PLANT EGG",
+    "nameEn": "PLANT EGG Plant-Based Fried Egg",
+    "desc": "純植物配方，退冰後輕煎一分鐘。",
+    "descEn": "Fully plant-based. Thaw, then pan-fry lightly for one minute.",
+    "img": "img/peacevegan/p2.jpg"
+   },
+   {
+    "name": "痞食Ｇ米花／煙燻維根",
+    "nameEn": "Popcorn Bites / Smoked Vegan Bacon",
+    "desc": "冷凍炸物與素培根。",
+    "descEn": "Frozen fried bites and vegan bacon.",
+    "img": "img/peacevegan/p3.jpg"
+   },
+   {
+    "name": "痞食米漢堡／堅果玉米濃湯",
+    "nameEn": "Rice Burger / Nut & Corn Chowder",
+    "desc": "微波加熱就能吃。",
+    "descEn": "Ready to eat after microwaving.",
+    "img": "img/peacevegan/p4.jpg"
+   },
+   {
+    "name": "和昌素食",
+    "nameEn": "和昌素食 Range",
+    "desc": "素蝦捲、素花枝捲、翡翠杏鮑菇丸、猴頭菇酥。",
+    "descEn": "Plant-based shrimp-style rolls, squid-style rolls, king oyster mushroom balls and crispy lion’s mane mushroom.",
+    "img": "img/peacevegan/p5.jpg"
+   },
+   {
+    "name": "全植物超市",
+    "nameEn": "Plant-Based Supermarket",
+    "desc": "販售各蔬食品牌，接受產品寄賣與推廣。",
+    "descEn": "Sells a range of plant-based brands, and accepts products on consignment and for promotion.",
+    "img": "img/peacevegan/p6.jpg"
+   },
+   {
+    "name": "業務用批發與 ODM",
+    "nameEn": "Foodservice Wholesale & ODM",
+    "desc": "3kg 營業用規格、蔬食 ODM 代工、團體訂餐。",
+    "descEn": "3kg foodservice packs, plant-based ODM manufacturing and group meal orders.",
+    "img": ""
+   }
+  ]
+ },
+ {
+  "slug": "dama",
+  "order": 140,
+  "category": "冷凍調理",
+  "brand": "大瑪南洋蔬食",
+  "brandEn": "DaMa",
+  "tagline": "吃素，也可以是一種享受：道地的南洋蔬食。",
+  "taglineEn": "Eating vegetarian can be a pleasure too: authentic Southeast Asian plant-based food.",
+  "logo": "img/dama/logo.webp",
+  "products": [
+   {
+    "name": "原味／咖哩Ｇ腿卷（全素）",
+    "nameEn": "Original / Curry Drumstick Rolls (Vegan)",
+    "desc": "豆皮包成腿狀，油炸後外酥內軟。",
+    "descEn": "Tofu skin wrapped into a drumstick shape, fried until crisp outside and soft inside.",
+    "img": "img/dama/p1.jpg"
+   },
+   {
+    "name": "沙爹串燒（純素）",
+    "nameEn": "Satay Skewers (Vegan)",
+    "desc": "薑黃與香茅醃製，附沙嗲醬。",
+    "descEn": "Marinated in turmeric and lemongrass, with satay sauce included.",
+    "img": "img/dama/p2.jpg"
+   },
+   {
+    "name": "大瑪Ｇ米花（純素）",
+    "nameEn": "DaMa Popcorn Bites (Vegan)",
+    "desc": "油炸後撒粉，或拌炒成糖醋口味。",
+    "descEn": "Fry and dust with seasoning, or stir-fry sweet-and-sour style.",
+    "img": "img/dama/p3.jpg"
+   },
+   {
+    "name": "佛心系列（純素）",
+    "nameEn": "Fo Xin Range (Vegan)",
+    "desc": "素叉燒、素雞絲、素炸雞等。",
+    "descEn": "Vegan char siu, shredded “chicken”, fried “chicken” and more.",
+    "img": "img/dama/p4.jpg"
+   },
+   {
+    "name": "南洋醬料與湯底",
+    "nameEn": "Southeast Asian Sauces & Soup Bases",
+    "desc": "叻沙、肉骨茶、仁當咖哩、三巴醬等。",
+    "descEn": "Laksa, bak kut teh, rendang curry, sambal and more.",
+    "img": "img/dama/p5.jpg"
+   },
+   {
+    "name": "常溫商品",
+    "nameEn": "Shelf-Stable Products",
+    "desc": "大瑪酸辣粉、熱浪島叻沙麵、好似肉乾、各式餅乾。",
+    "descEn": "DaMa hot and sour glass noodles, Redang Island laksa noodles, plant-based jerky and assorted biscuits.",
+    "img": "img/dama/p6.jpg"
+   }
+  ]
+ },
+ {
+  "slug": "xiaocuixing",
+  "order": 150,
+  "category": "零食點心",
+  "brand": "小脆杏",
+  "brandEn": "Mini Mush King",
+  "tagline": "菇農第三代，把整支杏鮑菇做成隨身零食。",
+  "taglineEn": "A third-generation mushroom farmer turning whole king oyster mushrooms into on-the-go snacks.",
+  "logo": "img/xiaocuixing/logo.webp",
+  "products": [
+   {
+    "name": "小脆杏 酥脆杏鮑菇 40g",
+    "nameEn": "Crispy King Oyster Mushrooms 40g",
+    "desc": "整支 mini 杏鮑菇乾燥脫油，搭配花椒與辣椒，麻辣香酥。全素。",
+    "descEn": "Whole mini king oyster mushrooms, dried and de-oiled, seasoned with Sichuan pepper and chili for a crisp, numbing-spicy kick. Vegan.",
+    "img": "img/xiaocuixing/p1.jpg"
+   }
+  ]
+ },
+ {
+  "slug": "goodie-veggie",
+  "order": 160,
+  "category": "餐飲通路",
+  "brand": "樂膳自然無毒蔬食超市",
+  "brandEn": "Goodie Veggie",
+  "tagline": "台中北屯的蔬食超市，實體門市加線上商城。",
+  "taglineEn": "A plant-based supermarket in Beitun, Taichung, with a physical store and an online shop.",
+  "logo": "img/goodie-veggie/logo.webp",
+  "products": [
+   {
+    "name": "冷藏與冷凍食品",
+    "nameEn": "Chilled & Frozen Foods",
+    "desc": "植物肉、包子、麵食、湯品等各蔬食品牌。",
+    "descEn": "Plant-based meats, buns, noodles, soups and more from many brands.",
+    "img": "img/goodie-veggie/p1.jpg"
+   },
+   {
+    "name": "植物奶與植物起司",
+    "nameEn": "Plant Milks & Plant-Based Cheese",
+    "desc": "全植奶油、全植起司、植物蛋白粉。",
+    "descEn": "Plant-based butter, plant-based cheese and plant protein powder.",
+    "img": "img/goodie-veggie/p2.jpg"
+   },
+   {
+    "name": "調味香辛料與南北貨",
+    "nameEn": "Seasonings, Spices & Dry Goods",
+    "desc": "醬油、醬料、米麵與雜糧。",
+    "descEn": "Soy sauce, sauces, rice, noodles and grains.",
+    "img": "img/goodie-veggie/p3.jpg"
+   },
+   {
+    "name": "營養保健與生活用品",
+    "nameEn": "Supplements & Household Goods",
+    "desc": "素食者補充品、清潔保養、素寶寶食品與用品。",
+    "descEn": "Supplements for vegetarians, cleaning and personal care products, and food and supplies for vegetarian babies.",
+    "img": "img/goodie-veggie/p4.jpg"
+   },
+   {
+    "name": "禮盒與惜福商品",
+    "nameEn": "Gift Sets & Near-Expiry Bargains",
+    "desc": "節慶禮盒，以及即期的惜福品。",
+    "descEn": "Festive gift sets, plus discounted items close to their best-before date.",
+    "img": "img/goodie-veggie/p5.jpg"
+   }
+  ]
+ },
+ {
+  "slug": "guangjida",
+  "order": 170,
+  "category": "餐飲通路",
+  "brand": "廣佶達素食商店",
+  "brandEn": "Guang Jida Food",
+  "tagline": "台南逾 30 年的素食批發零售，安南與永康兩間門市。",
+  "taglineEn": "Over 30 years of vegetarian wholesale and retail in Tainan, with stores in Annan and Yongkang.",
+  "logo": "img/guangjida/logo.webp",
+  "products": [
+   {
+    "name": "冷凍蔬食",
+    "nameEn": "Frozen Plant-Based Foods",
+    "desc": "炸物、植物荷包蛋、烏龍麵等。",
+    "descEn": "Fried items, plant-based fried eggs, udon and more.",
+    "img": "img/guangjida/p1.jpg"
+   },
+   {
+    "name": "醬料與泡菜",
+    "nameEn": "Sauces & Kimchi",
+    "desc": "蔬食沙茶醬、純素韓式泡菜。",
+    "descEn": "Vegetarian shacha sauce and vegan Korean kimchi.",
+    "img": "img/guangjida/p2.jpg"
+   },
+   {
+    "name": "生鮮蔬菜",
+    "nameEn": "Fresh Vegetables",
+    "desc": "無塵室栽培的綜合萵苣、貝比菜，門市自取。",
+    "descEn": "Mixed lettuce and baby greens grown in a clean room. In-store pickup.",
+    "img": "img/guangjida/p3.jpg"
+   },
+   {
+    "name": "天貝與常溫品",
+    "nameEn": "Tempeh & Shelf-Stable Goods",
+    "desc": "天貝系列、螺螄粉等，LINE 群預訂。",
+    "descEn": "Tempeh range, luosifen rice noodles and more. Pre-order through the LINE group.",
+    "img": "img/guangjida/p4.jpg"
+   },
+   {
+    "name": "批發",
+    "nameEn": "Wholesale",
+    "desc": "供應各式素食材料與南北貨。",
+    "descEn": "A full range of vegetarian ingredients and dry goods.",
+    "img": "img/guangjida/p5.jpg"
+   }
+  ]
+ },
+ {
+  "slug": "treenest",
+  "order": 180,
+  "category": "冷凍調理",
+  "brand": "樹巢 Tree Nest",
+  "brandEn": "Tree Nest",
+  "tagline": "從餐車開始，把台灣小吃做成不分葷素都喜歡的蔬食。",
+  "taglineEn": "Starting from a food truck, remaking Taiwanese street food as plant-based dishes that meat-eaters enjoy too.",
+  "logo": "img/treenest/logo.webp",
+  "products": [
+   {
+    "name": "梅肉生煎包",
+    "nameEn": "Mei Rou Pan-Fried Buns",
+    "desc": "招牌商品，客家梅乾菜、植物肉與脆瓜內餡。",
+    "descEn": "The signature item, filled with Hakka preserved mustard greens, plant-based meat and pickled cucumber.",
+    "img": "img/treenest/p1.jpg"
+   },
+   {
+    "name": "真食梅肉包",
+    "nameEn": "Mei Rou Steamed Buns",
+    "desc": "全素，6 入。",
+    "descEn": "Vegan. Pack of 6.",
+    "img": "img/treenest/p2.jpg"
+   },
+   {
+    "name": "太酥麻ㄐ腿捲",
+    "nameEn": "Crispy Numbing-Spicy Drumstick Rolls",
+    "desc": "全素，6 入。",
+    "descEn": "Vegan. Pack of 6.",
+    "img": "img/treenest/p3.jpg"
+   },
+   {
+    "name": "炙燒鐵板麵",
+    "nameEn": "Seared Teppan Noodles",
+    "desc": "全素，2 入。",
+    "descEn": "Vegan. Pack of 2.",
+    "img": "img/treenest/p4.jpg"
+   },
+   {
+    "name": "手工糯米捲",
+    "nameEn": "Handmade Sticky Rice Rolls",
+    "desc": "樹巢經典商品。",
+    "descEn": "A Tree Nest classic.",
+    "img": "img/treenest/p5.jpg"
+   },
+   {
+    "name": "做伙推薦／揪團優惠",
+    "nameEn": "Friends’ Picks / Group-Buy Deals",
+    "desc": "官網也推薦其他蔬食品牌的商品。",
+    "descEn": "The website also recommends products from other plant-based brands.",
+    "img": ""
+   }
+  ]
+ },
+ {
+  "slug": "madoupim",
+  "order": 190,
+  "category": "油品醬料",
+  "brand": "柚一村",
+  "brandEn": "Madoupim",
+  "tagline": "把麻豆賣不掉的醜柚子，做成和風醬、果醋與調味粉。",
+  "taglineEn": "Turning Madou’s unsold “ugly” pomelos into Japanese-style dressing, fruit vinegar and seasoning powders.",
+  "logo": "img/madoupim/logo.webp",
+  "products": [
+   {
+    "name": "柚肉和風醬",
+    "nameEn": "Pomelo Japanese-Style Dressing",
+    "desc": "純釀造醬油加上麻豆文旦柚肉，薄鹽、清爽，拌沙拉或當沾醬。230ml。",
+    "descEn": "Naturally brewed soy sauce with Madou wendan pomelo flesh. Low in salt and refreshing, for salads or as a dip. 230ml.",
+    "img": "img/madoupim/p1.jpg"
+   },
+   {
+    "name": "柚肉果醋",
+    "nameEn": "Pomelo Fruit Vinegar",
+    "desc": "柚肉搭配釀造醋，酸甜解膩，可以兌水喝。230ml。",
+    "descEn": "Pomelo flesh with brewed vinegar, sweet-tart and refreshing. Can be diluted with water as a drink. 230ml.",
+    "img": "img/madoupim/p2.jpg"
+   },
+   {
+    "name": "柚皮黑糖磚",
+    "nameEn": "Pomelo Peel Brown Sugar Cubes",
+    "desc": "把文旦柚皮的香氣揉進黑糖，獨立包裝，冷熱都能沖。",
+    "descEn": "The aroma of wendan pomelo peel blended into brown sugar. Individually wrapped, for hot or cold drinks.",
+    "img": "img/madoupim/p3.jpg"
+   },
+   {
+    "name": "柚香調味粉（四款）",
+    "nameEn": "Pomelo Seasoning Powders (4 Kinds)",
+    "desc": "柚皮七味粉、柚皮焦糖燒烤粉、柚皮胡椒鹽、柚子調味粉。",
+    "descEn": "Pomelo peel shichimi, pomelo peel caramel BBQ seasoning, pomelo peel pepper salt and pomelo seasoning powder.",
+    "img": "img/madoupim/p4.jpg"
+   },
+   {
+    "name": "風味禮盒",
+    "nameEn": "Gift Sets",
+    "desc": "和風醬與果醋禮盒、調味粉禮盒、糖醋醬禮盒等，適合中秋與企業送禮。",
+    "descEn": "Dressing and vinegar set, seasoning powder set, sweet-and-sour sauce set and more, for Mid-Autumn and corporate gifting.",
+    "img": "img/madoupim/p5.jpg"
+   }
+  ]
+ },
+ {
+  "slug": "phoenix-forest",
+  "order": 200,
+  "category": "外銷服務",
+  "brand": "Phoenix Forest",
+  "brandEn": "Phoenix Forest",
+  "tagline": "協助台灣品牌從台灣走進美國市場的落地夥伴。",
+  "taglineEn": "An on-the-ground partner helping Taiwanese brands enter the US market.",
+  "logo": "img/phoenix-forest/logo.webp",
+  "products": [
+   {
+    "name": "市場評估與品牌定位",
+    "nameEn": "Market Assessment & Brand Positioning",
+    "desc": "市場分析、競品調查、目標客群、定位建議與進入策略。",
+    "descEn": "Market analysis, competitor research, target audience, positioning advice and entry strategy.",
+    "img": "img/phoenix-forest/p1.jpg"
+   },
+   {
+    "name": "品牌曝光與市場測試",
+    "nameEn": "Brand Exposure & Market Testing",
+    "desc": "展覽代理、市集快閃、試吃試喝，收集消費者回饋。",
+    "descEn": "Trade show representation, pop-up markets and tastings to gather consumer feedback.",
+    "img": "img/phoenix-forest/p2.jpg"
+   },
+   {
+    "name": "美國物流與倉儲",
+    "nameEn": "US Logistics & Warehousing",
+    "desc": "國際運輸、進口清關、美國倉儲、庫存管理到全美配送。",
+    "descEn": "International shipping, customs clearance, US warehousing, inventory management and nationwide delivery.",
+    "img": "img/phoenix-forest/p3.jpg"
+   },
+   {
+    "name": "通路媒合與批發合作",
+    "nameEn": "Channel Matchmaking & Wholesale",
+    "desc": "超市通路、批發商、餐飲業者、商會與 B2B 採購。",
+    "descEn": "Supermarkets, wholesalers, foodservice operators, chambers of commerce and B2B buyers.",
+    "img": "img/phoenix-forest/p4.jpg"
+   },
+   {
+    "name": "企業禮盒與大宗採購",
+    "nameEn": "Corporate Gifts & Bulk Purchasing",
+    "desc": "中秋與新年禮盒、客製包裝、Logo 印刷、大宗採購。",
+    "descEn": "Mid-Autumn and Lunar New Year gift sets, custom packaging, logo printing and bulk orders.",
+    "img": "img/phoenix-forest/p5.jpg"
+   },
+   {
+    "name": "品牌長期成長策略",
+    "nameEn": "Long-Term Brand Growth Strategy",
+    "desc": "品牌在地化、行銷策略與長期合作。",
+    "descEn": "Brand localization, marketing strategy and long-term partnership.",
+    "img": ""
+   }
+  ]
+ },
+ {
+  "slug": "dessert-rescue",
+  "order": 210,
+  "category": "研發顧問",
+  "brand": "甜點救星 Dessert Rescue",
+  "brandEn": "Dessert Rescue",
+  "tagline": "理想中的甜點一直做不出來的時候，幫品牌把配方救回來。",
+  "taglineEn": "When the dessert you have in mind just won’t come out right, we help rescue the recipe.",
+  "logo": "",
+  "products": [
+   {
+    "name": "配方研發與試作",
+    "nameEn": "Recipe Development & Trials",
+    "desc": "從零開始或調整現有配方，多輪試作與盲測，同時評估成本與可行性。",
+    "descEn": "Start from scratch or adjust an existing recipe, with several rounds of trials and blind tastings, while assessing cost and feasibility.",
+    "img": "img/dessert-rescue/p1.jpg"
+   },
+   {
+    "name": "品質穩定化",
+    "nameEn": "Quality Stabilization",
+    "desc": "找出品質不穩的根本原因，制定標準作業程序與品管檢核點。",
+    "descEn": "Find the root cause of inconsistent quality, then set standard operating procedures and quality checkpoints.",
+    "img": "img/dessert-rescue/p2.jpg"
+   },
+   {
+    "name": "量產轉譯",
+    "nameEn": "Production Scale-Up",
+    "desc": "把小量試做的配方轉成工廠可執行的量產流程，含設備適配與試量產驗證。",
+    "descEn": "Turn a small-batch recipe into a process a factory can run, including equipment fit and pilot production.",
+    "img": "img/dessert-rescue/p3.jpg"
+   },
+   {
+    "name": "顧問診斷",
+    "nameEn": "Consulting Diagnosis",
+    "desc": "到店或到廠了解現況，提供問題根因分析與改善優先順序。",
+    "descEn": "An on-site visit to your shop or factory, with root-cause analysis and a prioritized list of improvements.",
+    "img": "img/dessert-rescue/p4.jpg"
+   },
+   {
+    "name": "教育訓練",
+    "nameEn": "Training",
+    "desc": "替內場團隊做技術與觀念訓練，附教材與檢核表。",
+    "descEn": "Technical and conceptual training for kitchen teams, with materials and checklists.",
+    "img": "img/dessert-rescue/p5.jpg"
+   },
+   {
+    "name": "三種合作方案",
+    "nameEn": "Three Ways to Work Together",
+    "desc": "配方急救諮詢（單次）、新品研發專案、品質穩定顧問方案（長期）。第一次諮詢免費。",
+    "descEn": "One-off recipe rescue consultation, new product development project, and a long-term quality stabilization program. The first consultation is free.",
+    "img": ""
+   }
+  ]
+ },
+ {
+  "slug": "anjia",
+  "order": 220,
+  "category": "保健飲品",
+  "brand": "安家草本生活 AN-JIA Herbs",
+  "brandEn": "AN-JIA Herbs",
+  "tagline": "讓食養走進日常，溫暖每一個需要的時候。",
+  "taglineEn": "Bringing food-as-nourishment into everyday life, with warmth whenever it is needed.",
+  "logo": "img/anjia/logo.webp",
+  "products": [
+   {
+    "name": "滋養膏飲系列",
+    "nameEn": "Tonic Paste Series",
+    "desc": "風土慢熬的精華，例如經典梨膏。",
+    "descEn": "Slow-simmered essence of local produce, such as the classic pear paste.",
+    "img": "img/anjia/p1.jpg"
+   },
+   {
+    "name": "香茶飲子系列",
+    "nameEn": "Herbal Tea Series",
+    "desc": "草本養生茶包，例如山楂舒暢茶。",
+    "descEn": "Herbal wellness tea bags, such as the hawthorn tea.",
+    "img": "img/anjia/p2.jpg"
+   },
+   {
+    "name": "草木拾香系列",
+    "nameEn": "Herbal Fragrance Series",
+    "desc": "草本香氛，例如隨身佩戴的草本香包。",
+    "descEn": "Herbal fragrance, such as wearable herbal sachets.",
+    "img": "img/anjia/p3.jpg"
+   }
+  ]
+ },
+ {
+  "slug": "foodtojoy",
+  "order": 230,
+  "category": "油品醬料",
+  "brand": "食二樂 FOOD TO JOY",
+  "brandEn": "FOOD TO JOY",
+  "tagline": "好油、好醋，把一餐變簡單。",
+  "taglineEn": "Good oil and good vinegar make a meal simple.",
+  "logo": "img/foodtojoy/logo.webp",
+  "products": [
+   {
+    "name": "義式油醋醬 Vegan（素食款）",
+    "nameEn": "Italian Balsamic Vinaigrette, Vegan",
+    "desc": "成分只有巴薩米克醋、特級冷壓初榨橄欖油、月桂葉、鹽與糖。250mL，另有小瓶裝。",
+    "descEn": "Only balsamic vinegar, cold-pressed extra virgin olive oil, bay leaf, salt and sugar. 250mL, also in a small bottle.",
+    "img": "img/foodtojoy/p1.jpg"
+   },
+   {
+    "name": "義式油醋醬 Garlic（蒜味款，五辛素）",
+    "nameEn": "Italian Balsamic Vinaigrette, Garlic (Vegan, contains alliums)",
+    "desc": "同樣的基底再加蒜粉，適合搭配烤蔬菜。250mL，另有小瓶裝。",
+    "descEn": "The same base with garlic powder added; good with roasted vegetables. 250mL, also in a small bottle.",
+    "img": "img/foodtojoy/p2.jpg"
+   },
+   {
+    "name": "冷壓初榨紫蘇油",
+    "nameEn": "Cold-Pressed Virgin Perilla Oil",
+    "desc": "香氣細緻、口感清爽，適合淋拌、涼拌與低溫料理。250mL。",
+    "descEn": "Delicate aroma and a light taste, for drizzling, cold dishes and low-temperature cooking. 250mL.",
+    "img": "img/foodtojoy/p3.jpg"
+   },
+   {
+    "name": "特級冷壓初榨橄欖油（Picual／Arbequina）",
+    "nameEn": "Extra Virgin Olive Oil (Picual / Arbequina)",
+    "desc": "西班牙原裝進口，兩個橄欖品種各一款。500mL。",
+    "descEn": "Imported from Spain, one oil for each olive variety. 500mL.",
+    "img": "img/foodtojoy/p4.jpg"
+   },
+   {
+    "name": "義式油醋禮盒",
+    "nameEn": "Vinaigrette Gift Set",
+    "desc": "兩瓶 100mL 小瓶裝，可選雙蒜味、雙素食或各一瓶。",
+    "descEn": "Two 100mL bottles: two garlic, two vegan, or one of each.",
+    "img": "img/foodtojoy/p5.jpg"
+   },
+   {
+    "name": "陶製餐皿",
+    "nameEn": "Ceramic Tableware",
+    "desc": "夜瀾、靜守、花隱、嶼壤等系列的碗盤、杯盞與花器。",
+    "descEn": "Bowls, plates, cups and vases in several series.",
+    "img": "img/foodtojoy/p6.jpg"
+   }
+  ]
+ },
+ {
+  "slug": "greenfruits",
+  "order": 240,
+  "category": "生鮮水果",
+  "brand": "綠之果物 Green Fruits",
+  "brandEn": "Green Fruits",
+  "tagline": "每天凌晨親自挑水果，做成禮盒與現切水果盒。",
+  "taglineEn": "Fruit hand-picked before dawn every day, made into gift boxes and fresh-cut fruit boxes.",
+  "logo": "img/greenfruits/logo.webp",
+  "products": [
+   {
+    "name": "日本空運麝香葡萄禮盒",
+    "nameEn": "Japanese Shine Muscat Grape Gift Box",
+    "desc": "果皮可食、無籽，附提袋與卡片。",
+    "descEn": "Seedless with edible skin; comes with a gift bag and card.",
+    "img": "img/greenfruits/p1.jpg"
+   },
+   {
+    "name": "日本靜岡綠肉哈密瓜禮盒",
+    "nameEn": "Shizuoka Green Melon Gift Box",
+    "desc": "日本空運，季節限定，附禮盒與提袋。",
+    "descEn": "Air-flown from Japan, seasonal, with gift box and bag.",
+    "img": "img/greenfruits/p2.jpg"
+   },
+   {
+    "name": "綜合水果禮盒",
+    "nameEn": "Mixed Fruit Gift Boxes",
+    "desc": "多種水果搭配成盒，例如藍莓、奇異果、蘋果與柑橘的組合，有多款可選。",
+    "descEn": "Several fruits in one box, such as blueberries, kiwifruit, apples and citrus. Many versions available.",
+    "img": "img/greenfruits/p3.jpg"
+   },
+   {
+    "name": "進口蘋果禮盒",
+    "nameEn": "Imported Apple Gift Box",
+    "desc": "美國、紐西蘭、智利等產地的蘋果，6 入或 8 入。",
+    "descEn": "Apples from the US, New Zealand, Chile and more, in boxes of 6 or 8.",
+    "img": "img/greenfruits/p4.jpg"
+   },
+   {
+    "name": "現切水果盒",
+    "nameEn": "Fresh-Cut Fruit Boxes",
+    "desc": "當季水果每日現切，有木盒分格、水果杯與宴會水果盤，會議與活動都能用。",
+    "descEn": "Seasonal fruit cut fresh daily: partitioned wooden boxes, fruit cups and party platters for meetings and events.",
+    "img": "img/greenfruits/p5.jpg"
+   },
+   {
+    "name": "水果箱",
+    "nameEn": "Fruit Crates",
+    "desc": "日常補果的一週水果箱，以及拜拜用的供果箱，內容依季節搭配。",
+    "descEn": "A weekly fruit crate for everyday eating, and offering crates for worship, packed according to the season.",
+    "img": "img/greenfruits/p6.jpg"
+   }
+  ]
+ }
+]
