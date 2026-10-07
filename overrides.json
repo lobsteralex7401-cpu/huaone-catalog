@@ -3,6 +3,22 @@
  "meetsuu": {
   "products": [
    {
+    "name": "經典 XO 醬（全素）",
+    "nameEn": "Classic Vegan XO Sauce",
+    "desc": "鮮菇絲層層煸香，取代干貝的鮮味來源。拌飯、拌麵、快炒都對味。淨重 260g，全素。",
+    "descEn": "Slow-fried mushroom strands build the savory depth — perfect over rice, noodles, or stir-fry. Net Wt. 260g. Vegan.",
+    "img": "./img/meetsuu-xo-sauce.jpg",
+    "price": "15"
+   },
+   {
+    "name": "川媽辣椒醬（全素）",
+    "nameEn": "Chuan Ma Chili Sauce (Vegan)",
+    "desc": "全素辣椒醬 160g，常溫保存。沾水餃、拌麵、拌飯都適合。",
+    "descEn": "Vegan chili sauce, 160g. Shelf-stable — great with dumplings, noodles and rice.",
+    "img": "./img/meetsuu-chili-sauce.jpg",
+    "price": "12"
+   },
+   {
     "name": "雙醬纖拌麵（蒟蒻麵）",
     "nameEn": "Konjac Noodles with Dual Sauce",
     "desc": "低卡蒟蒻麵體，附麻醬與醬油雙醬包，加熱拌勻即可上桌。170g × 2 包＋醬包，全素。",
